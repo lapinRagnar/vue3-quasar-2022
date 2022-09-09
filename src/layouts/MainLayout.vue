@@ -6,7 +6,7 @@
           flat
           dense
           round
-          icon="menu"
+          icon="mdi-menu"
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
@@ -41,7 +41,7 @@
 
     <q-page-container>
 
-      
+
 
       <router-view />
     </q-page-container>
