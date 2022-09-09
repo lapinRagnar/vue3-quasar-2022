@@ -5,7 +5,20 @@
       class="col-xs-9"
     >
       <q-toolbar class="bg-amber-6">
-        <q-input :model-value="search"></q-input>
+        <q-input
+          class="full-width"
+          :model-value="search"
+          borderless
+          placeholder="rechercher"
+        >
+
+          <template #append>
+            <q-icon name="mdi-magnify"></q-icon>
+          </template>
+
+        </q-input>
+
+
       </q-toolbar>
 
       <q-list>
@@ -27,6 +40,7 @@
               size="sm"
               />
           </q-item-section>
+
 
         </q-item>
       </q-list>
