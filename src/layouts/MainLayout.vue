@@ -30,6 +30,26 @@
     >
       <q-list>
 
+        <q-toolbar class="bg-teal-6" />
+
+        <q-item class="bg-purple-2">
+          <q-item-section>
+            lists
+          </q-item-section>
+
+          <q-item-section side>
+            <q-btn
+              icon="mdi-plus"
+              flat
+              round
+              size="sm"
+
+            />
+          </q-item-section>
+        </q-item>
+
+
+
       </q-list>
     </q-drawer>
 
