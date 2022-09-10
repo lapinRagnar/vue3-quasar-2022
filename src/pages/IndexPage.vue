@@ -71,6 +71,9 @@
 
 <script>
 import { defineComponent } from "vue";
+import { colors } from 'quasar'
+
+const { getPaletteColor } = colors
 
 export default defineComponent({
   name: "IndexPage",
@@ -78,6 +81,9 @@ export default defineComponent({
     return {
       search: ''
     }
+  },
+  mounted(){
+    console.log(getPaletteColor('blue'))
   }
 });
 </script>

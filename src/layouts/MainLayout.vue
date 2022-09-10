@@ -51,10 +51,10 @@
         <q-item clickable>
 
           <q-item-section side>
-            <q-icon name="mdi-shopping"/>
+            <q-icon name="mdi-shopping" />
           </q-item-section>
 
-          <q-item-section>
+          <q-item-section class="text-red">
             liste des courses
           </q-item-section>
 
