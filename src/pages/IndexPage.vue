@@ -1,4 +1,5 @@
 <template>
+
   <q-page class="row">
 
     <q-card
@@ -10,6 +11,7 @@
           :model-value="search"
           borderless
           placeholder="rechercher"
+          dense
         >
 
           <template #append>
@@ -21,7 +23,7 @@
 
       </q-toolbar>
 
-      <q-list>
+      <q-list bordered>
         <q-item>
 
           <q-item-section side>
@@ -46,6 +48,22 @@
       </q-list>
 
     </q-card>
+
+    <div class="col-xs-3">
+
+      <q-toolbar class="bg-teal-6">
+
+        <q-btn
+          icon="mdi-plus"
+          fab
+          color="secondary"
+          style="margin-bottom: -45px;"
+          class="q-ml-md"
+        />
+
+      </q-toolbar>
+
+    </div>
 
 
   </q-page>

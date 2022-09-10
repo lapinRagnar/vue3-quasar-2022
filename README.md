@@ -39,3 +39,7 @@ quasar build
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+
+### site tuto
+https://quasarcast.com/quasar-getting-started/quasar-getting-started-guide-3-skeleton-part-1
+
