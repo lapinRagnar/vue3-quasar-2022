@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <!-- content -->
+    se connecter
   </q-page>
 </template>
 
