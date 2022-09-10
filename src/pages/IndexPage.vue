@@ -61,8 +61,6 @@
           class="q-ml-md"
         />
 
-        <CreateTodoButton />
-
       </q-toolbar>
 
     </div>
@@ -89,6 +87,6 @@ export default defineComponent({
   mounted(){
     console.log(getPaletteColor('blue'))
   },
-  components: { CreateTodoButton, CreateTodoButton }
+  components: {  }
 });
 </script>
