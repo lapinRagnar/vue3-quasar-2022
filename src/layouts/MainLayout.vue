@@ -48,6 +48,22 @@
           </q-item-section>
         </q-item>
 
+        <q-item clickable>
+
+          <q-item-section side>
+            <q-icon name="mdi-shopping"/>
+          </q-item-section>
+
+          <q-item-section>
+            liste des courses
+          </q-item-section>
+
+          <q-item-section side>
+            2
+          </q-item-section>
+
+        </q-item>
+
 
 
       </q-list>
