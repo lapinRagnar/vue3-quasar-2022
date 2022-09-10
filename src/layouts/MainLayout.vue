@@ -15,7 +15,11 @@
           Quasar App
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <q-btn
+          icon="mdi-logout"
+          flat
+          round
+        />
       </q-toolbar>
     </q-header>
 
