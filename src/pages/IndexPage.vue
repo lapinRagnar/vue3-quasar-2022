@@ -61,6 +61,8 @@
           class="q-ml-md"
         />
 
+        <CreateTodoButton />
+
       </q-toolbar>
 
     </div>
@@ -72,6 +74,8 @@
 <script>
 import { defineComponent } from "vue";
 import { colors } from 'quasar'
+import CreateTodoButton from 'components/CreateTodoButton.vue'
+
 
 const { getPaletteColor } = colors
 
@@ -84,6 +88,7 @@ export default defineComponent({
   },
   mounted(){
     console.log(getPaletteColor('blue'))
-  }
+  },
+  components: { CreateTodoButton, CreateTodoButton }
 });
 </script>
