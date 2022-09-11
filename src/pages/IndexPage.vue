@@ -27,7 +27,9 @@
         <q-item>
 
           <q-item-section side>
-            <q-checkbox :model-value="true"/>
+
+            <UpdateTodoCheckbox />
+
           </q-item-section>
 
           <q-item-section>
@@ -35,12 +37,7 @@
           </q-item-section>
 
           <q-item-section side>
-            <q-btn
-              flat
-              icon="mdi-delete"
-              round
-              size="sm"
-              />
+            <DeleteTodoButton />
           </q-item-section>
 
 
@@ -53,13 +50,8 @@
 
       <q-toolbar class="bg-teal-6">
 
-        <q-btn
-          icon="mdi-plus"
-          fab
-          color="secondary"
-          style="margin-bottom: -45px;"
-          class="q-ml-md"
-        />
+        <CreateTodoButton />
+
 
       </q-toolbar>
 
@@ -73,6 +65,8 @@
 import { defineComponent } from "vue";
 import { colors } from 'quasar'
 import CreateTodoButton from 'components/CreateTodoButton.vue'
+import UpdateTodoCheckbox from "src/components/UpdateTodoCheckbox.vue";
+import DeleteTodoButton from "../components/DeleteTodoButton.vue";
 
 
 const { getPaletteColor } = colors
@@ -87,6 +81,6 @@ export default defineComponent({
   mounted(){
     console.log(getPaletteColor('blue'))
   },
-  components: {  }
+  components: { UpdateTodoCheckbox, DeleteTodoButton, CreateTodoButton }
 });
 </script>

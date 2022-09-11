@@ -9,14 +9,9 @@
           lists
         </q-item-section>
 
-        <q-item-section side>
-          <q-btn
-            icon="mdi-plus"
-            flat
-            round
-            size="sm"
 
-          />
+        <q-item-section side>
+          <CreateTodoListButton />
         </q-item-section>
       </q-item>
 
@@ -41,10 +36,12 @@
 </template>
 
 <script>
+import CreateTodoListButton from './CreateTodoListButton.vue';
 export default {
-  name: 'TodosList',
-  setup () {
-    return {}
-  }
+    name: "TodosList",
+    setup() {
+        return {};
+    },
+    components: { CreateTodoListButton }
 }
 </script>

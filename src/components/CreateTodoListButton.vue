@@ -1,18 +1,17 @@
 <template>
-
+  
   <q-btn
     icon="mdi-plus"
-    fab
-    color="secondary"
-    style="margin-bottom: -45px;"
-    class="q-ml-md"
-  />
+    flat
+    round
+    size="sm"
 
+  />
 </template>
 
 <script>
 export default {
-  name: 'CreateTodoButton',
+  name: 'CreateTodoListButton',
   setup () {
     return {}
   }
